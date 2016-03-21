@@ -26,8 +26,6 @@ Create a component called `Timer` that includes a `<TimeDisplay />` and 3 button
 * `Stop` should pause the timer.
 * If start is clicked again it should resume where it left off.
 * `Clear` should stop the timer and set it back to 0.
-* The `Start` button should be disabled (or hidden) while the timer is running.
-* The `Stop` button should be disabled (or hidden) while the timer is stopped.
 * make sure the component can be rendered to the page.
 
 ##Part 3 - Counting laps
@@ -39,7 +37,7 @@ Add a "Lap" button to the `Timer` when it is clicked the timer should keep runni
 
 The clear button should clear all laps.
 
-##Part 4 - Multiple Timers
+##Bonus - Multiple Timers
 
 Create a component called `StopWatch` when it first loads it should only show a button that says "Add Timer" (or similar).
 
