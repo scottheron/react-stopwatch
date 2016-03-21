@@ -10,9 +10,10 @@ To submit, create a pull request with a link to your fork.
 
 Create a component called `TimeDisplay` 
 
-* should take a time as a number of seconds (includes fractions) and displays it in the format: `00:00:00`
+* should take a time as a number of seconds (includes fractions) and displays it in a stopwatch format: `00:00:00`
 * should have one property called `time`. The `time` should be required and must be a number.
 * should maintain the format regardless of the number of seconds (up to `59:59.99`). Examples: `00:01.10`, `01:05.02`, `01:15.12`, etc.
+  * Note: You may want to take advantage of the `substr` function to take care of the leading zeroes in the time. That said, if you can't get the format perfect, don't waste too much time and move on to the next parts.
 * make sure the component can be rendered to the page.
 
 ##Part 2 - Timer
