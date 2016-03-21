@@ -36,3 +36,9 @@ Add a "Lap" button to the `StopWatch` when it is clicked the timer should keep r
 * each lap time should have the lap number next to it (Lap 1, Lap 2, etc...).
 
 The clear button should clear all laps.
+
+##Bonus
+
+* Make the `Start` button disabled once the clock is running.
+* Make the `Stop` and `Lap` buttons disabled once the clock is stopped.
+* Make another component to make multiple `StopWatch` components.
